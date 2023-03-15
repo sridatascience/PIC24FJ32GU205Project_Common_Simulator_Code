@@ -19,6 +19,7 @@ void main() {
    uint8_t b =0x08;
    TMR1 = b;
    uint8_t t = add(a,b,c);
+   TMR3 = t;
    return;
 }
 
