@@ -14,6 +14,7 @@ uint8_t add(uint8_t a, uint8_t b, uint8_t c ){
 void main() {
    uint8_t a = 0x05;
    TMR3 = a;
+   m = TMR3;
    uint8_t c = 0x1F;
    PR1 = c;
    uint8_t b =0x08;
