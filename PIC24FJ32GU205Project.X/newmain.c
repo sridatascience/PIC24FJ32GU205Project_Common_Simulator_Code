@@ -8,8 +8,8 @@
 
 #include <xc.h>
 uint8_t m =10;
-uint8_t add(uint8_t a, uint8_t b, uint8_t c ){
-   return a+b+c;
+uint8_t add(uint8_t n, uint8_t o, uint8_t p ){
+   return n+o+p;
 }
 void main() {
    uint8_t a = 0x05;
